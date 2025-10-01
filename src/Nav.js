@@ -7,7 +7,7 @@ function Nav() {
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container-fluid">
         <NavLink className="nav-brand" to="/home">
-          PORTFOLIO PROJ    
+          PORTFOLIO PROJ
         </NavLink>
 
         <button
@@ -35,6 +35,15 @@ function Nav() {
                 activeclassname="active"
               >
                 Portfolio
+              </NavLink>
+            </li>
+            <li class="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/ratatouille"
+                activeclassname="active"
+              >
+                ratatouille
               </NavLink>
             </li>
           </ul>
